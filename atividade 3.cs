@@ -17,7 +17,7 @@ class Exercicio3 {
             if (vetor[i] == busca) {
                 Console.WriteLine($"O elemento se encontra no vetor na posição: {i}");
                 encontrado = true;
-                break; // Interrompe a busca após encontrar a primeira ocorrência
+                break; 
             }
         }
         
