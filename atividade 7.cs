@@ -9,7 +9,7 @@ class Exercicio7 {
             vetor[i] = int.Parse(Console.ReadLine());
         }
 
-        Console.WriteLine("\n--- Vetor Original ---");
+        Console.WriteLine("Vetor Original");
         Console.WriteLine(string.Join(" | ", vetor));
 
        
@@ -19,7 +19,7 @@ class Exercicio7 {
             vetor[9 - i] = temporario;
         }
 
-        Console.WriteLine("\n--- Novo Vetor após as trocas ---");
+        Console.WriteLine("Novo Vetor após as trocas");
         Console.WriteLine(string.Join(" | ", vetor));
     }
 }
