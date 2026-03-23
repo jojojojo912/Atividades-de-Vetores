@@ -16,7 +16,7 @@ class Exercicio5 {
             if (vetor[i] < 7) qtdMenores7++;
         }
 
-        Console.WriteLine("\n--- Resultados ---");
+        Console.WriteLine("Resultados");
         Console.WriteLine($"Quantidade de números pares: {qtdPares}");
         Console.WriteLine($"Quantidade de números ímpares: {qtdImpares}");
         Console.WriteLine($"Quantidade de números maiores do que 50: {qtdMaiores50}");
