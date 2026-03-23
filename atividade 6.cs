@@ -9,9 +9,9 @@ class Exercicio6 {
             salarios[i] = double.Parse(Console.ReadLine());
         }
 
-        Console.WriteLine("\n--- Salários com Reajuste de 5% ---");
+        Console.WriteLine("Salários com Reajuste de 5");
         for (int i = 0; i < 10; i++) {
-            salarios[i] = salarios[i] * 1.05; // Aplica o aumento de 5%
+            salarios[i] = salarios[i] * 1.05; 
             Console.WriteLine($"Funcionário {i+1}: R$ {salarios[i]:F2}");
         }
     }
